@@ -1,3 +1,4 @@
+/* taking length and breadth and calculating are and perimeter */
 #include <stdio.h>
 int main() {
     float len, bre;
