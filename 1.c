@@ -1,14 +1,11 @@
+/* Input two numbers and output their sum */
 #include <stdio.h>
 
 int main() {
     int num1, num2, sum;
-    printf("Enter first number: ");
-    scanf("%d", &num1);
-
-    printf("Enter second number: ");
-    scanf("%d", &num2);
+    scanf("%d %d", &num1, &num2);
     sum = num1 + num2;
-    printf("The sum of %d and %d is: %d\n", num1, num2, sum);
+    printf("Sum = %d\n",sum);
 
     return 0;
 }
