@@ -1,6 +1,5 @@
 /* Program to input two numbers and displaying their sum, difference, product, and quotient */
 #include <stdio.h>
-
 int main() {
   int num1, num2;
   scanf("%d %d", &num1, &num2);
