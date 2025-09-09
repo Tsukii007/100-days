@@ -4,7 +4,7 @@ int main() {
     printf("Enter a character: ");
     scanf("%c", &ch);
     if (ch >= 'A' && ch <= 'Z') {
-        ch = ch + 32;
+        ch = ch + 32; //Converting all uppercase to lower
     }
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
         printf("Vowel\n");
