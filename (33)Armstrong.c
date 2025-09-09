@@ -8,7 +8,7 @@ int main() {
     original = n;
     int temp = n;
     while (temp > 0) {
-        digits++;
+        digits++; //Counting number of digits
         temp /= 10;
     }
     temp = n;
