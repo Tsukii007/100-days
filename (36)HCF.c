@@ -3,7 +3,7 @@ int main() {
     int a, b, temp;
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
-    while (b != 0) {
+    while (b != 0) { //Euclidean Theorem
         temp = b;
         b = a % b;
         a = temp;
