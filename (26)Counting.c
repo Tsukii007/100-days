@@ -6,7 +6,7 @@ int main() {
     for (i = 1; i <= n; i++) {
         printf("%d", i);
         if (i < n) {
-            printf(" ");
+            printf(" "); // space
         }
     }
     return 0;
