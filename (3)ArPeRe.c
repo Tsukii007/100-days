@@ -7,6 +7,6 @@ int main() {
     float area,perimeter;
     area = len * bre;
     perimeter = 2 * (length + breadth);
-    printf("Area = %.2f,Perimeter = %.2f\n", area, perimeter);
+    printf("Area = %.2f,Perimeter = %.2f\n", area, perimeter);  //.2 is roundig off the value to two digits after decimal
     return 0;
 }
