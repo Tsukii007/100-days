@@ -7,6 +7,5 @@ int main() {
     num1 = num2;
     num2 = temp;
     printf("After swap: %d %d\n", num1, num2);
-
     return 0;
 }
