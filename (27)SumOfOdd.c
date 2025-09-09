@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main() {
-    int n, i, sum = 0, odd = 1;
+    int n, i, sum = 0;
     printf("Enter n: ");
     scanf("%d", &n);
-    for (i = 1; i <= n; i++) {
-        sum += odd;
-        odd += 2;
+    for (i = 1; i <= n; i+=2) {
+        sum += i;
     }
     printf("%d\n", sum);
     return 0;
